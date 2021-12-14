@@ -1,15 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main ()
+int main()
 {
-    int a, b;
+    int a;
     printf("Enter the value: ");
     scanf("%d", &a);
 
-    for (a = 0; a < b; a++)
-    // {
-    //     printf("*");
-    // }
-    
+    for (int i = 0; i <= a; i++)
+    {
+        printf("%d\n", i);
+    }
+
     return 0;
 }
